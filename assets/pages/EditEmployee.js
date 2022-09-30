@@ -5,5 +5,6 @@ import Swal from "sweetalert2";
 import axios from "axios";
 
 function EditEmployee() {
-
+    const [id, setId] = useState(useParams().id);
 }
+export default EditEmployee;
