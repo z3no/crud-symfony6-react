@@ -14,7 +14,7 @@ function Main() {
                 <Route path="/" element={<ListEmployee/>}/>
                 <Route path="/addEmployee" element={<AddEmployee/>}/>
                 <Route path="/editEmployee/:id" element={<EditEmployee/>}/>
-                <Route path="/showEmployee" element={<ViewEmployee/>}/>
+                <Route path="/showEmployee/:id" element={<ViewEmployee/>}/>
             </Routes>
         </Router>
     );
